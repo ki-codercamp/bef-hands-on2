@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body class="container">
+
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <h1>Backend Foundation Hands-On</h1>
+            <p>Hands-On: Error handling, Web API's, and Web UI's</p>
+        </div>
+
+        <div class="container">
+          <ul>
+            <% cars.forEach(function(car) { %>
+              <li><%= car.make %> - <%= car.model %></li>
+            <% }); %>
+          </ul>
+        </div>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+
+</body>
+</html>

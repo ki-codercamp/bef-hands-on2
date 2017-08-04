@@ -1,0 +1,15 @@
+{
+  "name": "hands-on2",
+  "version": "1.0.0",
+  "description": "Hands-On: Error handling, Web API's, and Web UI's",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kenwoye",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.3"
+  }
+}
